@@ -12,7 +12,7 @@ section{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: #fff;
+	
 
 }
 header{
@@ -39,15 +39,34 @@ header ul li{
 	list-style: none;
 }
 header ul li a{
-	display: inline-block;
-	color: #333;
-	font-weight: 400;
-	margin-left: 40px;
-	text-decoration: none;
+ display: inline-block;
+ color: #333;
+ font-weight: 400;
+ margin-left: 40px;
+ text-decoration: none;
+  width: 100px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 39px;
+  border-radius: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 20px 10;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  padding-top: 10px;
 }
-a:hover{
-	background: rgba(0, 0, 250, 0.8);
-	width: 70px;
+ul li a:hover{
+	background: #4481eb;
+	width: 80px;
+	height: 27px;
+	margin-top: 5px;
+	text-align: center;
+	color: #fff;
+	border-radius: 20px;
+
 }
 .content{
 	position: relative;
@@ -58,7 +77,7 @@ a:hover{
 }
 .content .textBox{
 	position: relative;
-	max-width: 500px;
+	max-width: 400px;
 
 }
 .content .textBox h2{
@@ -68,7 +87,7 @@ a:hover{
 	font-weight: 500;
 }
 .content .textBox h2 span{
-	color: rgba(0, 0, 250, 0.8);
+	color: #4481eb;
 	font-size: 1.2em;
 	font-weight: 900;
 }
@@ -79,7 +98,7 @@ a:hover{
 	display: inline-block;
 	margin: 20px;
 	padding: 8px 20px;
-	background: rgba(0, 0, 250, 0.8);
+	background: #4481eb;
 	color: #fff;
 	border-radius: 40px;
 	font-weight: 500;
@@ -107,7 +126,7 @@ a:hover{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 250, 0.8);
-	clip-path: circle(800px at right 1000px);
+	background: #4481eb;
+	clip-path: circle(890px at right 1000px);
 
 }
